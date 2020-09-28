@@ -1,0 +1,14 @@
+framework:
+  json:
+    date-time:
+      local-date-format: yyyy-MM-dd
+      local-time-format: HH:mm:ss
+      local-date-time-format: yyyy-MM-dd HH:mm:ss
+    sensitive:
+      enable: true
+#spring:
+#  autoconfigure:
+spring:
+  main:
+    web-application-type:
+#    exclude: com.yoho8.frameboot.autoconfigure.json.JsonAutoConfiguration
