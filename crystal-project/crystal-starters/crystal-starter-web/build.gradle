@@ -15,6 +15,6 @@ dependencies {
 	api(project(':crystal-project:crystal-starters:crystal-starter'))
 	api(project(':crystal-project:crystal-starters:crystal-starter-json'))
 	api('org.springframework.boot:spring-boot-starter-web')
-//	api('org.springframework.boot:spring-boot-starter-webflux')
+	api('org.springframework.boot:spring-boot-starter-webflux')
 
 }

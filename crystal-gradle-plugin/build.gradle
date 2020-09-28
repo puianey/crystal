@@ -38,7 +38,7 @@ gradlePlugin {
 		crystalPlugin {
 			id = "com.puianey.crystal"
 			displayName = "Crystal Gradle Plugin"
-			description = "Crystal Gradle Plugin"
+			description = "auto Use Log4j2 instead of Logback"
 			implementationClass = "com.puianey.crystal.gradle.plugin.CrystalPlugin"
 		}
 	}
