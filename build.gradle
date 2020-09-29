@@ -24,6 +24,16 @@ allprojects {
 		}
 	}
 
+	repositories {
+		maven {
+			url 'https://nexus.yoho8.com/repository/maven-public'
+			credentials {
+				username 'admin'
+				password '853fad19a6e7'
+			}
+		}
+	}
+
 	configurations {
 		all {
 			resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
