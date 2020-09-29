@@ -1,4 +1,4 @@
-package com.puianey.crystal.constant;
+package com.puianey.crystal.plugins.constant;
 
 import org.gradle.api.plugins.JavaPlugin;
 

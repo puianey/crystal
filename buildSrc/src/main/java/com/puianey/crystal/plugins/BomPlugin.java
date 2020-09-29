@@ -1,15 +1,16 @@
-package com.puianey.crystal.plugin;
+package com.puianey.crystal.plugins;
 
-import com.puianey.crystal.plugin.publishing.PublishingPlugin;
-import com.puianey.crystal.plugin.repositories.RepositoriesPlugin;
+import com.puianey.crystal.plugins.publishing.PublishingPlugin;
+import com.puianey.crystal.plugins.repositories.RepositoriesPlugin;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.api.plugins.JavaPlatformPlugin;
-import org.gradle.api.plugins.PluginContainer;
 
 public class BomPlugin implements Plugin<Project> {
+
+	@Override
 	public void apply(Project project) {
-		PluginContainer plugins = project.getPlugins();
+		var plugins = project.getPlugins();
 		plugins.apply(JavaPlatformPlugin.class);
 		plugins.apply(RepositoriesPlugin.class);
 		plugins.apply(PublishingPlugin.class);

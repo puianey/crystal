@@ -15,31 +15,31 @@ gradlePlugin {
 	plugins {
 		annotationProcessorPlugin {
 			id = "com.puianey.crystal.annotation.processor"
-			implementationClass = "com.puianey.crystal.plugin.AnnotationProcessorPlugin"
+			implementationClass = "com.puianey.crystal.plugins.AnnotationProcessorPlugin"
 		}
 		autoConfigurationPlugin {
 			id = "com.puianey.crystal.autoconfiguration"
-			implementationClass = "com.puianey.crystal.plugin.AutoConfigurationPlugin"
+			implementationClass = "com.puianey.crystal.plugins.AutoConfigurationPlugin"
 		}
 		bomPlugin {
 			id = "com.puianey.crystal.bom"
-			implementationClass = "com.puianey.crystal.plugin.BomPlugin"
+			implementationClass = "com.puianey.crystal.plugins.BomPlugin"
 		}
 		conventionsPlugin {
 			id = "com.puianey.crystal.conventions"
-			implementationClass = "com.puianey.crystal.plugin.ConventionsPlugin"
+			implementationClass = "com.puianey.crystal.plugins.ConventionsPlugin"
 		}
 		pluginPlugin {
 			id = "com.puianey.crystal.plugin"
-			implementationClass = "com.puianey.crystal.plugin.PluginPlugin"
+			implementationClass = "com.puianey.crystal.plugins.PluginPlugin"
 		}
 		samplePlugin {
 			id = "com.puianey.crystal.sample"
-			implementationClass = "com.puianey.crystal.plugin.SamplePlugin"
+			implementationClass = "com.puianey.crystal.plugins.SamplePlugin"
 		}
 		starterPlugin {
 			id = "com.puianey.crystal.starter"
-			implementationClass = "com.puianey.crystal.plugin.StarterPlugin"
+			implementationClass = "com.puianey.crystal.plugins.StarterPlugin"
 		}
 	}
 }
