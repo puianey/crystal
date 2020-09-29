@@ -16,8 +16,6 @@ defaultTasks 'build'
 
 allprojects {
 
-	group 'com.puianey'
-
 	apply plugin: 'idea'
 
 	idea {
