@@ -1,12 +1,12 @@
 package com.puianey.crystal.plugins;
 
 import com.puianey.crystal.plugins.common.CommonPlugin;
+import com.puianey.crystal.plugins.publishing.PublishingPlugin;
 import com.puianey.crystal.plugins.repositories.RepositoriesPlugin;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.api.plugins.JavaLibraryPlugin;
 import org.gradle.api.plugins.JavaPlugin;
-import org.gradle.api.publish.plugins.PublishingPlugin;
 
 import java.util.Arrays;
 
